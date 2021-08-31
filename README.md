@@ -1,4 +1,4 @@
-# Resizinator
+# 🦀🤖 Resizinator
 Simple tool for debugging issues with window resizing by spamming resize commands to a window.
 
 ### Dependencies
