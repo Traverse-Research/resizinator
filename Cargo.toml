@@ -9,3 +9,5 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 rand = "0.8.4"
+winapi = { version="0.3.9", features=["winuser"] }
+thiserror = "1.0.28"

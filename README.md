@@ -2,13 +2,12 @@
 Simple tool for debugging issues with window resizing by spamming resize commands to a window.
 
 ### Dependencies
-* `wmctrl`  (install via ```sudo apt install wmctrl```)
 * Rust compiler (install from https://rustup.rs/)
+* If on linux: `wmctrl`  (install via ```sudo apt install wmctrl```)
 
 ### How to run:
-* Find your window name using ```wmctrl -l```
 * Modify `main.rs` with your window name, screen resolution and DPI scale
-* Start resizinator ```cargo run```
+* Start resizinator with ```cargo run```
 
 You can stop resizinator by using `Ctrl + C`.
 
